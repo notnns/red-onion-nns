@@ -1,0 +1,54 @@
+.topBanner {
+  margin: 0px 15px;
+  height: 520px;
+  background-image: url(../../bannerbackground.png);
+  background-size: 109%;
+  background-repeat: no-repeat;
+  background-position: calc(62%) calc(0%);
+  position: relative;
+  
+}
+
+.searchDiv {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox {
+  height: 50px;
+  width: 420px;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.searchButton {
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff0046;
+  color: white;
+}
+
+.bannerSearchInput {
+  width: 310px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.InnerDiv {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+  
+}
